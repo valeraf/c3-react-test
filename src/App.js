@@ -19,7 +19,7 @@ export const App = () => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://reactjs.org/docs/hello-world.html">
-          React(v16.3.2)
+          React(v16.4.0)
         </a>
       </li>
       <li>
