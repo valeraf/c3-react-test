@@ -3,3 +3,78 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+h1 {
+  color: #007fa3;
+  font-size: 36px;
+  padding-left: 30px;
+}
+
+.users_list {
+  background: #d8d8d8;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user {
+  flex: 1 1 auto;
+  width: 33.3%;
+  max-width: 33.3%;
+  padding-top: 40px;
+  padding: 40px 10px 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .user {
+    width: 50%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .user {
+    width: 100%;
+  }
+}
+
+.user_avatar {
+  width: 80px;
+  height: 80px;
+  margin: -40px auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user_avatar img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.user_content {
+  background: #ffffff;
+  padding: 5px;
+}
+
+.user_name {
+  text-align: center;
+  color: #e93939;
+  font-size: 18px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.delete {
+  color: #007fa3;
+  font-size: 14px;
+  text-decoration: none;
+}
+.delete:hover {
+  text-decoration: underline;
+}
